@@ -10,7 +10,7 @@ export const SobreNos = () => {
       <Title>Sobre nós</Title>
       <SubTitle>console.log("Hello world!")</SubTitle>
       {cards.map((content) => (
-        <Card key={content.id}>
+        <Card key={content.id.toString()}>
           <Message>{content.message}</Message>
         </Card>
       ))}
