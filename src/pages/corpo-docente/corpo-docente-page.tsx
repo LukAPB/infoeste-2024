@@ -7,7 +7,7 @@ export const CorpoDocentePage = () =>{
     const[list, setList] = useState<CorpoDocente[]>([]);
 
     useEffect(()=>{
-    fetch("https://infoeste-back-end-fm89.vercel.app/", {method: "get"},
+    fetch("https://infoeste-2024-api.vercel.app", {method: "get"},
     )    
     .then((response)=> response.json())
     .then((value: {corpoDocente: CorpoDocente[]})=>{
