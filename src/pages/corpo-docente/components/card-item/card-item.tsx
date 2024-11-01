@@ -1,4 +1,4 @@
-import { CorpoDocente } from "@/entities/corpo-docente";
+import { CorpoDocente } from "../../../../entitites/corpo-docente";
 import {
   Email,
   EmailWrapper,
